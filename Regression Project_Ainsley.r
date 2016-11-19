@@ -71,7 +71,7 @@ plot(mod2$residuals)
 library(car) 
 ncvTest(mod2)
 spreadLevelPlot(mod2)
-# mod1 check for normality
+# mod2 check for normality
 par(mfrow=c(1,2))
 hist(mod2$residuals)
 qqnorm(mod2$residuals)
